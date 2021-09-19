@@ -1,0 +1,12 @@
+$color1: rgb(34,193,195);
+$color2: rgb(253,187,45);
+
+.card {
+  margin: 50px;
+  height: 200px;
+  width: 400px;
+  background: rgb(34,193,195);
+  background: linear-gradient(90deg, rgba($color1,1) 0%, rgba($color2,1) 100%);
+  border-radius: 8px;
+  box-shadow: -15px 15px 20px rgba($color1, .2), 15px 15px 20px rgba($color2, .3);
+}
